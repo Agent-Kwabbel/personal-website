@@ -5,7 +5,7 @@
         color: white;
         font-family: 'DM Mono', monospace;
         white-space: pre;
-        line-height: 0.65;
+        line-height: 1.25;
         margin-top: 2rem;
     }
 
@@ -16,6 +16,7 @@
         margin: 0 -.25rem;
         padding: 0 .25rem;
         transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+        white-space: nowrap;
     }
 
     #about:hover {
@@ -26,5 +27,11 @@
     #contact:hover {
         box-shadow: inset 212px 0 0 0 #fde112;
         color: #171611;
+    }
+
+    @media (max-width: 1250px) {
+        p {
+            white-space: pre-line;
+        }
     }
 </style>

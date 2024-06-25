@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added socials and fixed font styling">
-      <change beforePath="$PROJECT_DIR$/src/components/home/HazardTape.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/HazardTape.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Reduced hazard tape scrolling speed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Title.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="5774000" />
+      <workItem from="1719334948991" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -185,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719343741113</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Reduced hazard tape scrolling speed">
+      <option name="closed" value="true" />
+      <created>1719343775715</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719343775715</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +213,7 @@
     <MESSAGE value="Added personal info to homepage" />
     <MESSAGE value="Import font" />
     <MESSAGE value="Added socials and fixed font styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added socials and fixed font styling" />
+    <MESSAGE value="Reduced hazard tape scrolling speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reduced hazard tape scrolling speed" />
   </component>
 </project>

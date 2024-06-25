@@ -30,6 +30,7 @@
         box-shadow: inset 0 0 0 0 #fde112;
         padding: 0 .25rem;
         transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+        white-space: nowrap;
     }
 
     .social-links a:hover {
