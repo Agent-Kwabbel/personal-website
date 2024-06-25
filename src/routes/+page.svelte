@@ -3,7 +3,7 @@
     import Title from '../components/home/Title.svelte';
     import PersonalInfo from "../components/home/PersonalInfo.svelte";
     import Navbar from "../components/home/Navbar.svelte";
-    import SocialLinks from "../components/home/SocialLinks.svelte";
+    import SocialLinks from "../components/SocialLinks.svelte";
 </script>
 
 <div class="container">

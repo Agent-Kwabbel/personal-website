@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="(More) responsive design">
-      <change afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Age calculator in lib">
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/downloads/EnglishResumeFabeStuffken.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/downloads/NederlandseCvFabeStuffken.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialLinks.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,8 @@
         <option value="Links" />
         <option value="SocialLinks" />
         <option value="+error" />
+        <option value="TypeScript File" />
+        <option value="Navbar" />
       </list>
     </option>
   </component>
@@ -47,7 +55,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projecten/personal-website/static",
+    "last_opened_file_path": "D:/Projecten/personal-website/static/downloads",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +70,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projecten\personal-website\static\downloads" />
       <recent name="D:\Projecten\personal-website\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projecten\personal-website\src\components" />
+      <recent name="D:\Projecten\personal-website\src\components\home" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="8366000" />
+      <workItem from="1719334948991" duration="12773000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -203,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719345180214</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added an error page">
+      <option name="closed" value="true" />
+      <created>1719346505779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719346505779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Age calculator in lib">
+      <option name="closed" value="true" />
+      <created>1719346918296</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719346918296</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +250,8 @@
     <MESSAGE value="Added socials and fixed font styling" />
     <MESSAGE value="Reduced hazard tape scrolling speed" />
     <MESSAGE value="(More) responsive design" />
-    <option name="LAST_COMMIT_MESSAGE" value="(More) responsive design" />
+    <MESSAGE value="Added an error page" />
+    <MESSAGE value="Age calculator in lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Age calculator in lib" />
   </component>
 </project>

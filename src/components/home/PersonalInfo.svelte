@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { onMount } from 'svelte';
     import {ageCalculator} from "$lib/ageCalculator.js";
 
     let age: number = ageCalculator();
