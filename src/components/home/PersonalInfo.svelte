@@ -15,7 +15,6 @@
 <style>
     p {
         color: white;
-        font-family: 'DM Mono', monospace;
         white-space: pre;
         line-height: 0.65;
     }

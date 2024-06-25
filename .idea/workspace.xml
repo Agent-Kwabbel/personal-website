@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added hazard tape (animation) styling to homepage">
-      <change afterPath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Import font">
+      <change afterPath="$PROJECT_DIR$/src/components/home/Navbar.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Title.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +23,17 @@
         <option value="Title" />
         <option value="HazardTape" />
         <option value="PersonalInfo" />
+        <option value="Links" />
+        <option value="SocialLinks" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Agent-Kwabbel &lt;fabestuffken@proton.me&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -90,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="4312000" />
+      <workItem from="1719334948991" duration="5735000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -140,7 +150,39 @@
       <option name="project" value="LOCAL" />
       <updated>1719341162635</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added personal info to homepage">
+      <option name="closed" value="true" />
+      <created>1719342225551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719342225551</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Import font">
+      <option name="closed" value="true" />
+      <created>1719343428325</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719343428325</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Import font">
+      <option name="closed" value="true" />
+      <created>1719343490771</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719343490771</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Import font">
+      <option name="closed" value="true" />
+      <created>1719343621559</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719343621559</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +195,8 @@
     <MESSAGE value="Added robots.txt" />
     <MESSAGE value="Added the title to the homepage" />
     <MESSAGE value="Added hazard tape (animation) styling to homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hazard tape (animation) styling to homepage" />
+    <MESSAGE value="Added personal info to homepage" />
+    <MESSAGE value="Import font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import font" />
   </component>
 </project>

@@ -2,6 +2,8 @@
     import HazardTape from '../components/home/HazardTape.svelte';
     import Title from '../components/home/Title.svelte';
     import PersonalInfo from "../components/home/PersonalInfo.svelte";
+    import Navbar from "../components/home/Navbar.svelte";
+    import SocialLinks from "../components/home/SocialLinks.svelte";
 </script>
 
 <div class="container">
@@ -13,7 +15,10 @@
 
     <div class="content">
         <PersonalInfo />
+        <Navbar />
     </div>
+
+    <SocialLinks />
 </div>
 
 <style>
