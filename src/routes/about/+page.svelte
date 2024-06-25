@@ -9,6 +9,10 @@
     let age: number = ageCalculator();
 </script>
 
+<svelte:head>
+    <title>Fabe Stuffken | About me</title>
+</svelte:head>
+
 <Navbar />
 
 <div class="container">

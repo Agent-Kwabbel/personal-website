@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Created the about me page">
-      <change afterPath="$PROJECT_DIR$/src/routes/contact/+page.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Quick README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
         <option value="TypeScript File" />
         <option value="Navbar" />
         <option value="+page" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,10 +37,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2iNdPnDdv7a23JsVY9fNQyg1bSZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,14 +50,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projecten/personal-website/static/downloads",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Projecten/personal-website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
     "npm.dev.executor": "Run",
+    "npm.format.executor": "Run",
+    "npm.preview.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "D:\\Projecten\\personal-website\\node_modules\\prettier",
     "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "D:\\Projecten\\personal-website\\node_modules\\typescript\\lib",
@@ -73,7 +77,17 @@
       <recent name="D:\Projecten\personal-website\src\components\home" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,9 +98,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +131,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="13094000" />
+      <workItem from="1719334948991" duration="15294000" />
+      <workItem from="1719401649271" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -243,7 +270,87 @@
       <option name="project" value="LOCAL" />
       <updated>1719355085407</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added contact page">
+      <option name="closed" value="true" />
+      <created>1719355316108</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719355316108</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Moved global.css to inline style">
+      <option name="closed" value="true" />
+      <created>1719355996755</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719355996755</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Optimized fonts">
+      <option name="closed" value="true" />
+      <created>1719356156553</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356156553</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Optimized fonts">
+      <option name="closed" value="true" />
+      <created>1719356160160</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356160160</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added page titles">
+      <option name="closed" value="true" />
+      <created>1719356239741</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356239741</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added meta data description.">
+      <option name="closed" value="true" />
+      <created>1719356385185</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356385185</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added meta data description.">
+      <option name="closed" value="true" />
+      <created>1719356388472</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356388472</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Created sitemap">
+      <option name="closed" value="true" />
+      <created>1719356599977</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356599977</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Using link for fonts yet again">
+      <option name="closed" value="true" />
+      <created>1719356971264</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356971264</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Quick README.md">
+      <option name="closed" value="true" />
+      <created>1719357238940</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719357238940</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +371,14 @@
     <MESSAGE value="Added an error page" />
     <MESSAGE value="Age calculator in lib" />
     <MESSAGE value="Created the about me page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the about me page" />
+    <MESSAGE value="Added contact page" />
+    <MESSAGE value="Moved global.css to inline style" />
+    <MESSAGE value="Optimized fonts" />
+    <MESSAGE value="Added page titles" />
+    <MESSAGE value="Added meta data description." />
+    <MESSAGE value="Created sitemap" />
+    <MESSAGE value="Using link for fonts yet again" />
+    <MESSAGE value="Quick README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quick README.md" />
   </component>
 </project>
