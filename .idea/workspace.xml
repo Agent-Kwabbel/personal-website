@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Reduced hazard tape scrolling speed">
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="(More) responsive design">
+      <change afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/PersonalInfo.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/SocialLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Title.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
         <option value="PersonalInfo" />
         <option value="Links" />
         <option value="SocialLinks" />
+        <option value="+error" />
       </list>
     </option>
   </component>
@@ -99,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="7070000" />
+      <workItem from="1719334948991" duration="8366000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -197,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719343775715</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="(More) responsive design">
+      <option name="closed" value="true" />
+      <created>1719345180214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719345180214</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
     <MESSAGE value="Import font" />
     <MESSAGE value="Added socials and fixed font styling" />
     <MESSAGE value="Reduced hazard tape scrolling speed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reduced hazard tape scrolling speed" />
+    <MESSAGE value="(More) responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="(More) responsive design" />
   </component>
 </project>
