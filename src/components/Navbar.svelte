@@ -1,15 +1,23 @@
-<p><a href="/about" id="about">[ More about me ] </a> / <a href="contact" id="contact">[ Contact ] </a> / Blogs & Projects coming soon!</p>
+<p class="navbar"><a href="/">[ Home ]</a> / <a href="/about" id="about">[ More about me ]</a> / <a href="contact" id="contact">[ Contact ]</a></p>
 
 <style>
-     p {
-         color: white;
-         font-family: 'DM Mono', monospace;
-         white-space: pre;
-         line-height: 1.25;
-         margin-top: 2rem;
-     }
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        color: white;
+        font-family: 'DM Mono', monospace;
+        white-space: pre;
+        line-height: 1.25;
+        margin-top: 0;
+        background-color: #171611;
+    }
 
-    a {
+    .navbar a {
         box-shadow: inset 0 0 0 0 #fde112;
         color: white;
         text-decoration: none;
@@ -30,7 +38,7 @@
     }
 
     @media (max-width: 1250px) {
-        p {
+        .navbar {
             white-space: pre-line;
         }
     }

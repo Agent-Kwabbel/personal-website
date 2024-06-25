@@ -8,7 +8,7 @@
 
 <div class="social-links">
     {#each socials as social}
-        <a href={social.url} target="_blank">{social.name}</a>
+        <a href={social.url} target="_blank">[ {social.name} ]</a>
     {/each}
 </div>
 
@@ -21,6 +21,7 @@
         display: flex;
         justify-content: center;
         padding: 1rem;
+        background-color: #171611;
     }
 
     .social-links a {
