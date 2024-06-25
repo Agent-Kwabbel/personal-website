@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Moved global.css to inline style">
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Optimized fonts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/contact/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/contact/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="13799000" />
+      <workItem from="1719334948991" duration="13977000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -273,7 +275,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719355996755</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Optimized fonts">
+      <option name="closed" value="true" />
+      <created>1719356156553</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356156553</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Optimized fonts">
+      <option name="closed" value="true" />
+      <created>1719356160160</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356160160</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +314,7 @@
     <MESSAGE value="Created the about me page" />
     <MESSAGE value="Added contact page" />
     <MESSAGE value="Moved global.css to inline style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved global.css to inline style" />
+    <MESSAGE value="Optimized fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized fonts" />
   </component>
 </project>

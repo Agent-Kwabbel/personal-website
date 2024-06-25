@@ -6,6 +6,10 @@
     import SocialLinks from "../components/SocialLinks.svelte";
 </script>
 
+<svelte:head>
+    <title>Fabe Stuffken | Home</title>
+</svelte:head>
+
 <div class="container">
     <div class="content">
         <Title />
