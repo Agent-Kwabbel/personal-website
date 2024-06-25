@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added meta data description.">
-      <change afterPath="$PROJECT_DIR$/src/routes/sitemap.xml/+server.js" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Created sitemap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,16 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -103,6 +112,7 @@
       <list>
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.preview" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="14297000" />
+      <workItem from="1719334948991" duration="14676000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -315,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719356388472</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Created sitemap">
+      <option name="closed" value="true" />
+      <created>1719356599977</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356599977</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,6 +359,7 @@
     <MESSAGE value="Optimized fonts" />
     <MESSAGE value="Added page titles" />
     <MESSAGE value="Added meta data description." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added meta data description." />
+    <MESSAGE value="Created sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created sitemap" />
   </component>
 </project>
