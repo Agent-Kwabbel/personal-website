@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added robots.txt">
-      <change afterPath="$PROJECT_DIR$/src/components/home/Title.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added the title to the homepage">
+      <change afterPath="$PROJECT_DIR$/src/components/home/HazardTape.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Title" />
+        <option value="HazardTape" />
       </list>
     </option>
   </component>
@@ -88,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="2445000" />
+      <workItem from="1719334948991" duration="3272000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -122,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719340132701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the title to the homepage">
+      <option name="closed" value="true" />
+      <created>1719340260653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719340260653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +142,7 @@
     <MESSAGE value="Added global.css" />
     <MESSAGE value="Changed favicon.png" />
     <MESSAGE value="Added robots.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added robots.txt" />
+    <MESSAGE value="Added the title to the homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the title to the homepage" />
   </component>
 </project>
