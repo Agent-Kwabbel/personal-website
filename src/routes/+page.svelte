@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Title from '../components/home/Title.svelte';
+</script>
+
+<div class="container">
+    <div class="content">
+        <Title />
+    </div>
+</div>
+
+<style>
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        width: 75%;
+    }
+</style>
