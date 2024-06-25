@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added page titles">
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Added meta data description.">
+      <change afterPath="$PROJECT_DIR$/src/routes/sitemap.xml/+server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/robots.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
         <option value="TypeScript File" />
         <option value="Navbar" />
         <option value="+page" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -118,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
-      <workItem from="1719334948991" duration="14117000" />
+      <workItem from="1719334948991" duration="14297000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -296,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719356239741</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added meta data description.">
+      <option name="closed" value="true" />
+      <created>1719356385185</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356385185</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added meta data description.">
+      <option name="closed" value="true" />
+      <created>1719356388472</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719356388472</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +340,7 @@
     <MESSAGE value="Moved global.css to inline style" />
     <MESSAGE value="Optimized fonts" />
     <MESSAGE value="Added page titles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added page titles" />
+    <MESSAGE value="Added meta data description." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added meta data description." />
   </component>
 </project>
