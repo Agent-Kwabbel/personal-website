@@ -1,13 +1,19 @@
 <script>
-import HazardTape from '../components/home/HazardTape.svelte';
+    import HazardTape from '../components/home/HazardTape.svelte';
     import Title from '../components/home/Title.svelte';
+    import PersonalInfo from "../components/home/PersonalInfo.svelte";
 </script>
 
 <div class="container">
     <div class="content">
         <Title />
     </div>
+
     <HazardTape />
+
+    <div class="content">
+        <PersonalInfo />
+    </div>
 </div>
 
 <style>
