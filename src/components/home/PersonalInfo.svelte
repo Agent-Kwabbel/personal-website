@@ -1,11 +1,8 @@
-<script>
-    // calculate my age
-    const birthDate = new Date('2008-07-24');
-    const today = new Date();
-    const yearInMs = 1000 * 60 * 60 * 24 * 365.25;
+<script lang="ts">
+    import { onMount } from 'svelte';
+    import {ageCalculator} from "$lib/ageCalculator.js";
 
-    const diff = today.getTime() - birthDate.getTime();
-    const age = Math.floor(diff / yearInMs);
+    let age: number = ageCalculator();
 </script>
 
 <p class="personal-info">
