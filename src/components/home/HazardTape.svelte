@@ -6,7 +6,7 @@
 
     const calculateVariables = () => {
         svgCount = Math.floor(window.innerWidth / 45);
-        scrollSpeed = svgCount / 2.5;
+        scrollSpeed = svgCount / 1.5;
     };
 
     onMount(() => {
