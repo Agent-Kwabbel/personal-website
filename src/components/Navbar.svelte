@@ -1,4 +1,4 @@
-<p class="navbar"><a href="/">[ Home ]</a> / <a href="/about" id="about">[ More about me ]</a> / <a href="contact" id="contact">[ Contact ]</a></p>
+<p class="navbar"><a href="/">[ Home ]</a> / <a href="/about">[ More about me ]</a> / <a href="contact">[ Contact ]</a></p>
 
 <style>
     .navbar {
@@ -27,12 +27,7 @@
         white-space: nowrap;
     }
 
-    #about:hover {
-        box-shadow: inset 212px 0 0 0 #fde112;
-        color: #171611;
-    }
-
-    #contact:hover {
+    .navbar a:hover {
         box-shadow: inset 212px 0 0 0 #fde112;
         color: #171611;
     }
