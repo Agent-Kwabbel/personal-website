@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Implemented Vercel (Analytics)">
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Use date-fns in ageCalculator.ts">
+      <change afterPath="$PROJECT_DIR$/src/components/blog/Content.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,17 +17,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Title" />
         <option value="HazardTape" />
         <option value="PersonalInfo" />
         <option value="Links" />
         <option value="SocialLinks" />
         <option value="+error" />
-        <option value="TypeScript File" />
         <option value="Navbar" />
-        <option value="+page" />
         <option value="JavaScript File" />
         <option value="+layout" />
+        <option value="TypeScript File" />
+        <option value="+page" />
+        <option value="Title" />
+        <option value="Content" />
       </list>
     </option>
   </component>
@@ -92,7 +92,7 @@
       <recent name="D:\Projecten\personal-website\src\components\home" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -125,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.preview" />
       </list>
     </recent_temporary>
@@ -147,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
       <workItem from="1719334948991" duration="15294000" />
-      <workItem from="1719401649271" duration="1759000" />
+      <workItem from="1719401649271" duration="11687000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -381,17 +381,61 @@
       <option name="project" value="LOCAL" />
       <updated>1719414830755</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Implemented Vercel Speed Insights">
+      <option name="closed" value="true" />
+      <created>1719415519207</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719415519207</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Changed favicon.png">
+      <option name="closed" value="true" />
+      <created>1719415546445</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1719415546445</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Changed favicon.png">
+      <option name="closed" value="true" />
+      <created>1719415766517</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719415766517</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Vercel Postgresql implemented">
+      <option name="closed" value="true" />
+      <created>1719423149839</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719423149839</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Created blog page system">
+      <option name="closed" value="true" />
+      <created>1719429981370</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719429981370</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Use date-fns in ageCalculator.ts">
+      <option name="closed" value="true" />
+      <created>1719430176417</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719430176417</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Added global.css" />
-    <MESSAGE value="Changed favicon.png" />
-    <MESSAGE value="Added robots.txt" />
     <MESSAGE value="Added the title to the homepage" />
     <MESSAGE value="Added hazard tape (animation) styling to homepage" />
     <MESSAGE value="Added personal info to homepage" />
@@ -412,6 +456,11 @@
     <MESSAGE value="Quick README.md" />
     <MESSAGE value="Fixed navbar" />
     <MESSAGE value="Implemented Vercel (Analytics)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Vercel (Analytics)" />
+    <MESSAGE value="Implemented Vercel Speed Insights" />
+    <MESSAGE value="Changed favicon.png" />
+    <MESSAGE value="Vercel Postgresql implemented" />
+    <MESSAGE value="Created blog page system" />
+    <MESSAGE value="Use date-fns in ageCalculator.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use date-fns in ageCalculator.ts" />
   </component>
 </project>
