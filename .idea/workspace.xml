@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Quick README.md">
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Implemented Vercel (Analytics)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,7 @@
         <option value="Navbar" />
         <option value="+page" />
         <option value="JavaScript File" />
+        <option value="+layout" />
       </list>
     </option>
   </component>
@@ -37,6 +40,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Agent-Kwabbel"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Agent-Kwabbel/personal-website.git",
+    "accountId": "4feec26a-58fa-41de-8a52-2261952c5645"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -77,7 +92,7 @@
       <recent name="D:\Projecten\personal-website\src\components\home" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -110,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.preview" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
       <workItem from="1719334948991" duration="15294000" />
-      <workItem from="1719401649271" duration="41000" />
+      <workItem from="1719401649271" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -350,7 +365,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719357238940</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fixed navbar">
+      <option name="closed" value="true" />
+      <created>1719401730536</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1719401730536</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implemented Vercel (Analytics)">
+      <option name="closed" value="true" />
+      <created>1719414830755</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719414830755</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,6 +410,8 @@
     <MESSAGE value="Created sitemap" />
     <MESSAGE value="Using link for fonts yet again" />
     <MESSAGE value="Quick README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick README.md" />
+    <MESSAGE value="Fixed navbar" />
+    <MESSAGE value="Implemented Vercel (Analytics)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Vercel (Analytics)" />
   </component>
 </project>
