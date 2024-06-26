@@ -1,8 +1,5 @@
-export function ageCalculator(): number {
-	const birthDate = new Date('2008-07-24');
-	const today = new Date();
-	const yearInMs = 1000 * 60 * 60 * 24 * 365.25;
+import { differenceInYears } from 'date-fns';
 
-	const diff = today.getTime() - birthDate.getTime();
-	return Math.floor(diff / yearInMs);
+export function ageCalculator(): number {
+	return differenceInYears(new Date(), new Date(2008, 7, 24));
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Vercel Postgresql implemented">
-      <change afterPath="$PROJECT_DIR$/src/components/blog/Title.svelte" afterDir="false" />
+    <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Created blog page system">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ageCalculator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ageCalculator.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
       <workItem from="1719334948991" duration="15294000" />
-      <workItem from="1719401649271" duration="11191000" />
+      <workItem from="1719401649271" duration="11396000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -414,14 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719423149839</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Created blog page system">
+      <option name="closed" value="true" />
+      <created>1719429981370</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719429981370</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added global.css" />
     <MESSAGE value="Added robots.txt" />
     <MESSAGE value="Added the title to the homepage" />
     <MESSAGE value="Added hazard tape (animation) styling to homepage" />
@@ -446,6 +450,7 @@
     <MESSAGE value="Implemented Vercel Speed Insights" />
     <MESSAGE value="Changed favicon.png" />
     <MESSAGE value="Vercel Postgresql implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vercel Postgresql implemented" />
+    <MESSAGE value="Created blog page system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created blog page system" />
   </component>
 </project>
