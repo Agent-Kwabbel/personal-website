@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ed4d20b-e887-4c09-9986-a0c22164d04b" name="Changes" comment="Changed favicon.png">
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/blog/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +26,11 @@
         <option value="Links" />
         <option value="SocialLinks" />
         <option value="+error" />
-        <option value="TypeScript File" />
         <option value="Navbar" />
-        <option value="+page" />
         <option value="JavaScript File" />
         <option value="+layout" />
+        <option value="TypeScript File" />
+        <option value="+page" />
       </list>
     </option>
   </component>
@@ -145,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719334946527</updated>
       <workItem from="1719334948991" duration="15294000" />
-      <workItem from="1719401649271" duration="2129000" />
+      <workItem from="1719401649271" duration="6531000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -395,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719415546445</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Changed favicon.png">
+      <option name="closed" value="true" />
+      <created>1719415766517</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719415766517</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
