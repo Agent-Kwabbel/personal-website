@@ -5,7 +5,7 @@
 </script>
 
 <p class="personal-info">
-    {age} years old / Utrecht, The Netherlands / 5th year atheneum+ student at <a href="https://www.heemlanden.nl/ons-onderwijs/wie-wij-zijn/onze-atheneum-plus" target="_blank">[ College de Heemlanden ]</a>
+    {age} years old / Utrecht, The Netherlands / 6th year atheneum+ student at <a href="https://www.heemlanden.nl/ons-onderwijs/wie-wij-zijn/onze-atheneum-plus" target="_blank">[ College de Heemlanden ]</a>
 </p>
 
 <style>
