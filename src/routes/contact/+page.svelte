@@ -20,7 +20,7 @@
         <p>If you have any questions or would like to get in touch, please feel free to contact me through the form below or via the following methods:</p>
         <p><strong>Email:</strong> <a href="mailto:fabestuffken@proton.me">[ fabestuffken@proton.me ]</a> (recommended)</p>
         <p><strong>GitHub:</strong> <a href="https://github.com/Agent-Kwabbel" target="_blank">[ GitHub Profile ]</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/fabe-stuffken" target="_blank">[ LinkedIn Profile ]</a> (not so recommended)</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fabe-stuffken" target="_blank">[ LinkedIn Profile ]</a> (not so recommended)</p>
     </div>
 </div>
 
