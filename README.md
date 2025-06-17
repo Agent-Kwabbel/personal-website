@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the source code for Fabe Stuffken's personal website. The website is built using SvelteKit, a powerful framework for building web applications, and is written in TypeScript and JavaScript.
+This is the source code for Fabe Stuffken's personal website. The website is built using SvelteKit and is written in TypeScript and JavaScript.
 
 ## Development
 
