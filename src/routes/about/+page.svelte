@@ -18,8 +18,12 @@
 <div class="container">
 	<div class="content">
 		<p>
-			Hey there! First of all, thank you for visiting my website. I'm Fabe, a {age}-year-old high
-			school student from Utrecht, The Netherlands. I'm currently in my 5th year of atheneum+ at
+			Hey there! First of all, thank you for visiting my website. I'm Fabe, a {age}-year-old from
+			Utrecht, The Netherlands.
+
+			<br /><br />
+
+			I'm currently a graduate from
 			<a
 				href="https://www.heemlanden.nl/ons-onderwijs/wie-wij-zijn/onze-atheneum-plus"
 				target="_blank">[ College de Heemlanden ]</a
@@ -29,33 +33,48 @@
 			<a
 				href="https://en.wikipedia.org/wiki/Education_in_the_Netherlands#Curriculum"
 				target="_blank">[ Nature & Technology ]</a
-			>, with subjects including Informatics, Mathematics D, and NLT. I'm currently working on my
+			>, with subjects including Informatics, Mathematics D, and NLT. This year I've finished my
 			thesis for
 			<a href="https://u-talent.nl/leerlingen/meerjarige-programmas/academy/" target="_blank"
 				>[ U-Talent Academy]
 			</a>
-			about the use of epistemic logic. My journey with technology started at a young age. I've always
-			been curious about how things work, and I've always been eager to learn new things. I started programming
-			when I was 9 years old with Scratch and later progressed to HTML and CSS. I've been learning new
-			things ever since, and I'm always looking for new challenges. Besides programming, I'm also interested
-			in engineering. I was a member of
+			about the use of epistemic logic.
+
+			<br /><br />
+
+			My journey with technology started at a young age. I've always been curious about how things
+			work, and I've always been eager to learn new things. I started programming when I was 9 years
+			old with Scratch and later progressed to HTML and CSS. I've been learning new things ever
+			since, and I'm always looking for new challenges. Besides programming, I'm also interested in
+			engineering. I was a member of
 			<a href="https://www.djoamersfoort.nl/" target="_blank">[ DJO Amersfoort ]</a>
 			where I learned a lot about electronics and robotics. Now, I'm pursuing a career in engineering
-			or computer science. I'm always looking for new opportunities to learn and grow. If you have any
-			questions or if you want to get in touch, feel free to send me an email at
+			or computer science.
+
+			<br /><br />
+
+			I'm always looking for new opportunities to learn and grow. If you have any questions or if
+			you want to get in touch, feel free to send me an email at
 			<a href="mailto:fabestuffken@proton.me">[ fabestuffken@proton.me ]</a>.
+
+			<br /><br />
 
 			<b>Skills:</b> Programming in HTML, CSS, JS/TS, Python, Java, C and C#. Experience with web
 			frameworks, Git, Linux, Arduino, Raspberry Pi, and Unity. Knowledge of algorithms, data
 			structures, and computer architecture.
 
-			<b>Hobbies and Interests:</b> Technology, gaming, music, kickboxing and more! I hope you've
-			enjoyed your stay on my website! Cheers, Fabe
+			<br />
+
+			<b>Hobbies and Interests:</b> Technology, gaming, music, kickboxing and more!
+
+			<br /><br />
+
+			I hope you've enjoyed your stay on my website! Cheers, Fabe
 
 			<b
 				><u
 					><a download="English Resume Fabe Stuffken.pdf" target="_blank" href={EnglishResume}
-						>[ Download English Resume ]</a
+						>[ Download English Resume (old) ]</a
 					></u
 				>
 				<u
@@ -85,7 +104,6 @@
 
 	p {
 		color: white;
-		white-space: pre-line;
 		line-height: 1.25;
 	}
 

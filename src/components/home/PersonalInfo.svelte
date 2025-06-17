@@ -5,7 +5,7 @@
 </script>
 
 <p class="personal-info">
-	{age} years old / Utrecht, The Netherlands / 6th year atheneum+ student at
+	{age} years old / Utrecht, The Netherlands / vwo atheneum+ graduate from
 	<a href="https://www.heemlanden.nl/ons-onderwijs/wie-wij-zijn/onze-atheneum-plus" target="_blank"
 		>[ College de Heemlanden ]</a
 	>
@@ -14,7 +14,6 @@
 <style>
 	p {
 		color: white;
-		white-space: pre;
 		line-height: 1.25;
 	}
 

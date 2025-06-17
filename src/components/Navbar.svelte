@@ -1,6 +1,7 @@
+<!-- prettier-ignore -->
 <p class="navbar">
-	<a href="/">[ Home ]</a> / <a href="/about">[ More about me ]</a> /
-	<a href="contact">[ Contact ]</a>
+	<a href="/">[ Home ] </a> / <a href="/about"> [ More about me ] </a> / 
+<a href="contact"> [ Contact ]</a>
 </p>
 
 <style>
@@ -14,10 +15,10 @@
 		padding: 1rem;
 		color: white;
 		font-family: 'DM Mono', monospace;
-		white-space: pre;
 		line-height: 1.25;
 		margin-top: 0;
 		background-color: #171611;
+		white-space: pre-wrap;
 	}
 
 	.navbar a {
@@ -29,7 +30,7 @@
 		transition:
 			color 0.2s ease-in-out,
 			box-shadow 0.2s ease-in-out;
-		white-space: nowrap;
+		white-space: pre-wrap;
 	}
 
 	.navbar a:hover {
