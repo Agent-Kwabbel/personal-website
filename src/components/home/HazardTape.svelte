@@ -52,4 +52,10 @@
 			transform: translateX(-50%);
 		}
 	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.hazard-tape {
+			animation: none;
+		}
+	}
 </style>

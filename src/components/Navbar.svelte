@@ -38,6 +38,12 @@
 		color: #171611;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+		.navbar a {
+			transition: none;
+		}
+	}
+
 	@media (max-width: 1250px) {
 		.navbar {
 			white-space: pre-line;

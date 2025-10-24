@@ -34,6 +34,12 @@
 		color: #171611;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+		a {
+			transition: none;
+		}
+	}
+
 	@media (max-width: 1250px) {
 		.personal-info {
 			white-space: pre-line;

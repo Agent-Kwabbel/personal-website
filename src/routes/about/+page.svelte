@@ -133,6 +133,13 @@
 		text-decoration-color: #171611;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+		a,
+		u {
+			transition: none;
+		}
+	}
+
 	@media (max-width: 900px) {
 		.container {
 			height: auto;

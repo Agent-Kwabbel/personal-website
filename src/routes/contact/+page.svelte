@@ -75,6 +75,12 @@
 		color: #171611;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+		a {
+			transition: none;
+		}
+	}
+
 	@media (max-width: 900px) {
 		.content {
 			margin: 4rem 0 4rem 0;

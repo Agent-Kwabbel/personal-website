@@ -33,6 +33,12 @@
 		color: #171611;
 	}
 
+	@media (prefers-reduced-motion: reduce) {
+		a {
+			transition: none;
+		}
+	}
+
 	@media (max-width: 1250px) {
 		p {
 			white-space: pre-line;

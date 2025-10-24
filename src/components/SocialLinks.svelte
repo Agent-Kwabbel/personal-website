@@ -40,4 +40,10 @@
 		color: #171611;
 		box-shadow: inset 212px 0 0 0 #fde112;
 	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.social-links a {
+			transition: none;
+		}
+	}
 </style>
